@@ -61,10 +61,15 @@ Proot Support: Termux + PRoot handles filesystem redirection and sandboxing.
 pkg update -y && pkg install -y curl && curl -L https://raw.githubusercontent.com/itachi-uchiha0011/kali-udocker-termux/main/first_this.sh | bash
 
 • Then use these Commands:
+
 udocker run kalilinux/kali-rolling:latest
+
 • Inside udocker kali image You must change repositories use this inside
+
 echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" > /etc/apt/sources.list
+
 • Then Install Git and clone this
+
 
 pkg update -y && pkg install -y curl && curl -L https://raw.githubusercontent.com/itachi-uchiha0011/kali-udocker-termux/main/install.sh | bash
 
