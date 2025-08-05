@@ -7,6 +7,7 @@ echo ""
 read -p "🔸 Do you want FULL install (3+ GB) or LITE version (1.5 GB)? [full/lite]: " MODE
 
 echo "[*] Updating system..."
+echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" > /etc/apt/sources.list
 apt update && apt upgrade -y
 
 echo "[*] Installing essential CLI OS utilities..."
