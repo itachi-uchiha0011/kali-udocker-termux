@@ -1,0 +1,51 @@
+---
+
+✅ How to use
+
+1. Save script:
+
+
+
+nano recover-udocker.sh
+
+Paste the script, then save and exit (Ctrl+X, Y, Enter).
+
+2. Make it executable:
+
+
+
+chmod +x recover-udocker.sh
+
+3. Run it:
+
+
+
+./recover-udocker.sh
+
+
+---
+
+🧠 What it does:
+
+Detects any orphaned UUID-style container.
+
+Renames it to kali-recovered.
+
+Edits container.json with the new name.
+
+Runs it with udocker run kali-recovered.
+
+
+
+---
+
+Let me know if you want:
+
+To recover multiple containers
+
+To use a custom name via argument like ./recover-udocker.sh new-name
+
+Auto-check if rootfs is broken or valid
+
+
+I'll modify it for you accordingly.
