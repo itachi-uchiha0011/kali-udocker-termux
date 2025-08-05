@@ -27,11 +27,42 @@ Android 8+
 
 Storage: 6.5GB free
 
+
+---
+
+✅ How to Use
+
+1. Upload this script to your GitHub repo as setup_udocker_kali.sh
+
+
+2. In Termux, run:
+
+
+
+chmod +x setup_udocker_kali.sh
+./setup_udocker_kali.sh
+
+
+---
+
+📌 Notes
+
+Kali Image: We're using kalilinux/kali-rolling, which is the latest rolling Kali Docker image.
+
+No Root Required: udocker works in Termux without needing root access.
+
+Proot Support: Termux + PRoot handles filesystem redirection and sandboxing.
+
 ---
 
 📥 Installation (1-Line Setup)
+• First Install Udocker and Kali Image
 
-pkg update -y && pkg install -y curl && curl -L https://raw.githubusercontent.com/itachi-uchiha0011/kali-udocker-termux/main/install.sh | bash
+pkg update -y && pkg install -y curl && curl -L https://raw.githubusercontent.com/itachi-uchiha0011/kali-udocker-termux/main/first_this.sh | bash
+
+• Then use these Commands:
+udocker run kalilinux/kali-rolling:latest
+
 
 
 ---
