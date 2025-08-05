@@ -71,6 +71,7 @@ pkg update -y && pkg install -y curl && curl -L https://raw.githubusercontent.co
 • After Installation Make file persistent because its Gone after you exit so use this to make it recoverable in termux (outside udocker)
 
   pkg update -y && pkg install -y curl && curl -L https://raw.githubusercontent.com/itachi-uchiha0011/kali-udocker-termux/main/recover.sh | bash
+  
   MAKE SURE Read text_recover.txt to read how to use this recover.sh
   
 ---
