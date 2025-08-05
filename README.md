@@ -26,3 +26,67 @@ Termux from F-Droid (not Play Store)
 Android 8+
 
 Storage: 6.5GB free
+
+---
+
+📥 Installation (1-Line Setup)
+
+pkg update -y && pkg install -y curl && curl -L https://raw.githubusercontent.com/itachi-uchiha0011/kali-udocker-termux/main/install.sh | bash
+
+
+---
+
+📦 Tools Installed (via kali-tools.txt)
+
+nmap
+net-tools
+hydra
+sqlmap
+wget
+curl
+nano
+python3
+wireshark-cli
+burpsuite
+
+
+---
+
+🛠️ GUI Setup
+
+Install VNC Viewer (RealVNC or bVNC) and connect to:
+
+localhost:1
+
+Password: kali
+
+
+
+---
+
+🧰 Troubleshooting
+
+Check troubleshooting.md for:
+
+apt errors
+
+ifconfig not found
+
+missing GUI
+
+storage full
+
+
+
+---
+
+📸 Screenshots
+
+In screenshots/ folder (for every step).
+
+
+---
+
+👨‍💻 Maintainer
+
+Built with ❤️ by Itachi Uchiha
